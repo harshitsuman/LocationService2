@@ -1,0 +1,20 @@
+{
+  "name": "azurecosmostableapinodejssocketio",
+  "version": "1.0.0",
+  "description": "'Tracking Application'",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "restart": "nodemon src/index.js"
+  },
+  "author": "Harshit Suman",
+  "license": "ISC",
+  "dependencies": {
+    "azure-storage": "^2.0.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
